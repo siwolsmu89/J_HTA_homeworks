@@ -52,3 +52,5 @@
    집에서 소스 받기
    git clone https://github.com/eungsu/oop2.git
    
+   git pull origin master 원격저장소의 최신 버전 소스를 로컬 저장소와 병합한다.
+   
