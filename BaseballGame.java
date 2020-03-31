@@ -1,6 +1,6 @@
 package array;
 
-// 풀이는 ArrayDemo14에 있음.
+// homework 0316
 
 import java.util.Scanner;
 
