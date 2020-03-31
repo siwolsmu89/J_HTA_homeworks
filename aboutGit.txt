@@ -27,4 +27,28 @@
 5. Remote 
  - add : github repository 주소 연결
  - push : 로그인 후 원격 저장소에 저장
- - fetch from : github repository 선택 - 
+ 
+ 6. Git의 주요 명령어
+  - git init : 로컬 저장소 생성
+  - git status : 현재 작업 디렉토리의 상태를 확인
+  - git add *
+  - git add 파일명
+  - git add 디렉토리명
+            지정된 파일 혹은 디렉토리를 stage영역으로 이전시킨다.
+  - git commit -m "메시지" : stage 영역에 있는 모든 파일을 로컬 저장소에 저장한다.
+  - git remote add origin https://github.com/아이디/저장소명.git : 원격저장소를 origin이라는 이름으로 등록한다.
+  - git push origin master : 원격저장소 origin에 로컬저장소의 master 브랜치의 커밋된 내용을 전송한다.
+  - git pull origin master : 원격저장소 origin에 저장된 최종버전의 소스를 로컬저장소의 master 브랜치와 병합한다. 
+  - git log -n 숫자 : 소스 변경이력을 지정된 숫자만큼 보여준다.
+  
+  Git으로 작업하기
+   git init : 저장소 생성
+   .gitignore 파일 생성
+   
+   소스를 코딩하거나 수정한다.
+    git add * : 소스를 스테이지영역으로 이전
+    git commit -m "메시지" : 버전이력에 대해 메시지 작성
+    
+   집에서 소스 받기
+   git clone https://github.com/eungsu/oop2.git
+   
