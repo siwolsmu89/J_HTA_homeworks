@@ -16,3 +16,10 @@
   - commit 명령어를 사용하면 파일 저장 시 로컬 저장소에 저장
   - push 명령어를 사용하면 파일 저장 시 원격 저장소에 저장
   - pull 명령어를 사용하면 원격 저장소에서 파일을 불러옴
+
+4. Git GUI 사용하기
+ - create Repository : 소스코드가 들어 있는 폴더 선택
+ - gitignore.io : Java, Windows, Eclipse 입력, 생성 -> 길게 나오는 문서 복사, 메모장에 붙여넣기
+ - create Repository에서 선택한 폴더 아래에서 .gitignore이라는 이름으로 저장
+ - git GUI에서 rescan하면 불필요한 파일은 모두 무시됨
+ - 업데이트 할 파일을 선택, Stage Changed -> commit message 입력 후 commit
