@@ -23,3 +23,8 @@
  - create Repository에서 선택한 폴더 아래에서 .gitignore이라는 이름으로 저장
  - git GUI에서 rescan하면 불필요한 파일은 모두 무시됨
  - 업데이트 할 파일을 선택, Stage Changed -> commit message 입력 후 commit
+
+5. Remote 
+ - add : github repository 주소 연결
+ - push : 로그인 후 원격 저장소에 저장
+ - fetch from : github repository 선택 - 
