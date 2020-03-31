@@ -1,5 +1,10 @@
 package myself;
 
+
+// OR just use Integer.parseInt(String s);
+
+
+
 public class programmers01 {
 	
 	public static int[] charArrToIntArr(char[] charArr) {
