@@ -58,3 +58,9 @@
    git 사용자 기록 삭제하기
    https://www.it-swarm.dev/ko/git/windows%EC%9D%98-git-bash-%EC%BD%98%EC%86%94%EC%97%90%EC%84%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%A1%9C%EA%B7%B8-%EC%95%84%EC%9B%83%ED%95%A9%EB%8B%88%EA%B9%8C/827386210/
    
+   
+   git에서 원격저장소 폴더 삭제하기
+   git -r --cached 폴더주소
+   git commit ~~
+   git push ~~
+https://jjunii486.tistory.com/55 참고하기 
